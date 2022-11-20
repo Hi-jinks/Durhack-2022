@@ -49,6 +49,7 @@
                             <ul>
                                 <li><a href="num.html">Numbers</a></li>
                                 <li><a href="typing.html">Typing</a></li>
+                                <li><a href="#"  id="myLink">Random</a></li>
                             </ul>
                         </div>
                       </li>
@@ -76,4 +77,18 @@
                </center>
             </div>
          </body>
+
+         <script type="text/javascript">
+
+            document.getElementById("myLink").onclick = function() {
+                var a = Math.round(Math.random());
+                if (a==1) {
+                    document.getElementById("myLink").href="num.html"; 
+                }
+                else {
+                    document.getElementById("myLink").href="typing.html";
+                }
+            };
+          </script>
+
     </body>
