@@ -1,0 +1,27 @@
+.cursor {
+    background-color: yellow;
+}
+
+.done {
+    color: gray;
+}
+
+#typing {
+    margin: 0 auto;
+    width: 200px;
+    padding-right: 90px;
+
+}
+
+.outer-box {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    text-align: center;
+    margin-left: 360px;
+    margin-top: 160px;
+
+  }
+  
